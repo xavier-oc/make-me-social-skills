@@ -1,0 +1,13 @@
+# Local credentials and runtime state
+.env
+.env.*
+!.env.template
+credentials/
+*.token
+google_oauth.json
+credentials*.json
+token-cache*
+
+# Local/editor artifacts
+.DS_Store
+*.swp
